@@ -3,7 +3,8 @@
 	<h1>Hyperlearn</h1>
 
 <% if user_signed_in? %>
-          # do something
+          "Welcome! Let's get started."
+          <%= link_to "Begin", problem1_path, class: "btn btn-default btn-lg" %>
      <% else %>
        <p>
          <%= link_to "Log in", new_user_session_path, class: "btn btn-default btn-lg" %>
