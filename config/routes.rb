@@ -3,6 +3,7 @@ Rails.application.routes.draw do
  root "pages#home"  #use root_path to link back to home
  get "about" => "pages#about" #creates an about_path
  get "problem1" => "pages#problem1"
+ get "orionsreturn" =>"pages#orionsreturn"
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
