@@ -19,10 +19,37 @@
       </div>
 
       <div class="form-group">
-        <%= f.submit "Sign up", class: "btn btn-primary" %>
+        <%= f.label :"What Kind of Learner are you?"%>
+        <%= f.password_field :password, class: "form-control" %>
+      </div>
+
+      <div class="form-group">
+        <%= f.label :"What is the last math course that you completed?"%>
+        <%= f.password_field :password, class: "form-control" %>
+      </div>
+
+      <div class="form-group">
+        <%= f.label :"How excited are you about learning new  math concepts? (Scale 1-10)"%>
+        <%= f.password_field :password, class: "form-control" %>
+      </div>
+
+      <div class="form-group">
+        <%= f.label :"What is a math concept that you would like to strengthen?"%>
+        <%= f.password_field :password, class: "form-control" %>
+      </div>
+
+  
+
+      <div class="form-group">
+        <%= f.submit "Ready to Learn!", class: "btn btn-primary" %>
       </div>
     <% end %>
   </div>
+
+
+
+
+
 
   <div class="panel-footer">
     <%= render "devise/shared/links" %>

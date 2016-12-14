@@ -4,6 +4,7 @@ Rails.application.routes.draw do
  get "about" => "pages#about" #creates an about_path
  get "problem1" => "pages#problem1"
  get "orionsreturn" =>"pages#orionsreturn"
+ get "oriontest" => "pages#oriontest"
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

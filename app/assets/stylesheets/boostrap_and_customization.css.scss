@@ -1,12 +1,13 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700);
 
-$body-bg:                          #ecf0f1;
+
+$body-bg:                          #1abc9c;
 $font-family-sans-serif:           'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $navbar-height:                    45px;
 $navbar-default-bg:                white;
-$navbar-default-brand-color:       #c0392b;
-$brand-primary:                    #c0392b;
-$jumbotron-bg:                     white;
+$navbar-default-brand-color:       #2980b9;
+$brand-primary:                    black;
+$jumbotron-bg:                     #16a085;
 
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
@@ -18,3 +19,85 @@ $jumbotron-bg:                     white;
 .navbar-brand {
      font-weight: bold;
 }
+
+.top-buffer { margin-top: 100px;}
+
+.center-header {
+	margin-top: 50px;
+	margin-left: 400px;
+	font-size: 500%;
+}
+
+.progressbar-center{
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.searchicon-glyph{
+	margin-right:50px;
+}
+
+.button-placement{
+	margin-left:500px;
+}
+
+.image-pos{
+	margin-left: 350px;
+	margin-top: 0px;
+}
+
+.choose-story{
+	width:100px;
+	height: 100px;
+}
+
+.tesla{
+	width:150px;
+	height: 150px;
+}
+
+.baseball{
+	width:80px;
+	height: 1000px;
+}
+
+.round-corners{
+	border-radius: 25px;
+	margin-left: 200px;
+
+}
+
+.orion-text{
+	color: white;
+    font-family: "Verdana", Geneva, sans-serif;
+}
+
+.jround{
+	border-radius: 30px;
+}
+
+
+
+
+.nav3 {
+    
+    height: auto;
+    width: 150px;
+    float: left;
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.icons{
+    display:inline-block;
+    width: 64px; 
+    height: 64px; 
+   }
+
+ a.icons:hover {
+     background: #C93;
+ }
